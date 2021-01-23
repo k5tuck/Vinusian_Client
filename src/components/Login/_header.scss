@@ -1,0 +1,18 @@
+.lheader {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  padding: 10px;
+}
+.nav-links {
+  color: white;
+  width: 20%;
+  padding: 0;
+  ul {
+    max-width: 50%;
+    justify-content: space-around;
+    display: flex;
+  }
+}

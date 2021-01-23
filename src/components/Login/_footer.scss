@@ -1,0 +1,43 @@
+.lfooter {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  align-content: center;
+
+  div {
+    display: flex;
+  }
+  a {
+    text-decoration: none;
+    list-style: none;
+  }
+}
+.footer-legal-links {
+  display: flex;
+  width: 50%;
+  margin: 0 0 0 24%;
+  justify-content: space-around;
+  li {
+    color: white;
+  }
+}
+.lbottom-footer {
+  display: flex;
+  width: 50%;
+  margin: 0 0 0 26%;
+  color: white;
+  justify-content: space-around;
+}
+.footer-social-icons {
+  display: flex;
+  li {
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+.social-icon {
+  a {
+    color: white;
+  }
+}
