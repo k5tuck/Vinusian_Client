@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function LoginHeader() {
   return (
@@ -8,8 +9,12 @@ function LoginHeader() {
       </span>
       <nav className="nav-links">
         <ul>
-          <li>Home</li>
-          <li>Who We Are</li>
+          <Link to="/">
+            <li>Home</li>
+          </Link>
+          <Link to="/about">
+            <li>Who We Are</li>
+          </Link>
         </ul>
       </nav>
     </div>

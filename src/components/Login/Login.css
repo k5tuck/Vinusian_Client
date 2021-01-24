@@ -1,3 +1,7 @@
+html {
+  font-size: large;
+}
+
 #root {
   min-height: 100vh;
   background: -webkit-gradient(linear, left top, right bottom, from(#121761), to(#1d97bd));
@@ -101,6 +105,7 @@ li {
       -ms-flex-align: center;
           align-items: center;
   color: white;
+  min-height: 10vh;
 }
 
 .nav-links {
@@ -118,6 +123,12 @@ li {
   display: flex;
 }
 
+.nav-links ul a {
+  margin: 0 8px;
+  color: white;
+  text-decoration: none;
+}
+
 .lfooter {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -131,6 +142,7 @@ li {
       justify-content: space-around;
   -ms-flex-line-pack: center;
       align-content: center;
+  min-height: 12vh;
 }
 
 .lfooter a {
@@ -139,7 +151,7 @@ li {
 }
 
 .footer-legal-links {
-  left: 25%;
+  left: 23%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -192,4 +204,4 @@ li {
     margin-top: 45px;
   }
 }
-/*# sourceMappingURL=Login.css.map */
+/*# sourceMappingURL=login.css.map */

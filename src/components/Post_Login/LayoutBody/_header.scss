@@ -1,14 +1,23 @@
-.lheader {
+.main-header {
+  background: linear-gradient(to right bottom, rgb(18, 23, 97), #1d97bd);
   display: flex;
   min-width: 100vw;
+  min-height: 10vh;
   justify-content: space-around;
   align-items: center;
   color: white;
-  min-height: 10vh;
+  span {
+    display: flex;
+    img {
+      margin: 0 20px;
+      width: 4%;
+    }
+  }
 }
-.nav-links {
+
+.main-nav-links {
   color: white;
-  width: 20%;
+  width: 40%;
   padding: 0;
   ul {
     width: 50%;

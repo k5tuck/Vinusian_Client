@@ -1,8 +1,7 @@
 import React from "react";
 import LoginHeader from "./LoginHeader";
 import LoginFooter from "./LoginFooter";
-import "./Login.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./login.css";
 
 function Login() {
   return (
@@ -18,6 +17,7 @@ function Login() {
         <div className="buttonContainer">
           <div className="loginButtons">
             <div className="firstloginButton">
+              {/* Change href path */}
               <a href="#">
                 <button>
                   <img
@@ -30,6 +30,7 @@ function Login() {
               </a>
             </div>
             <div>
+              {/* Change href path */}
               <a href="#">
                 <button>
                   <img

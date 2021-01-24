@@ -1,5 +1,5 @@
 import React from "react";
-// import "./Post_Login.css";
+import "../LayoutBody/post_login.css";
 import MainHeader from "./MainHeader";
 import MainFooter from "./MainFooter";
 

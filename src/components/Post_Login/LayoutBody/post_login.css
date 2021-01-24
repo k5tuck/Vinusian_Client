@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-body {
+  min-height: 78vh;
+  min-width: 100vw;
+  background: white;
+}
+
+.main-header {
+  background: -webkit-gradient(linear, left top, right bottom, from(#121761), to(#1d97bd));
+  background: linear-gradient(to right bottom, #121761, #1d97bd);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 100vw;
+  min-height: 10vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.main-header span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-header span img {
+  margin: 0 20px;
+  width: 4%;
+}
+
+.main-nav-links {
+  color: white;
+  width: 40%;
+  padding: 0;
+}
+
+.main-nav-links ul {
+  width: 50%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-nav-links ul a {
+  margin: 0 8px;
+  color: white;
+  text-decoration: none;
+}
+
+.main-footer {
+  background: -webkit-gradient(linear, left top, right bottom, from(#121761), to(#1d97bd));
+  background: linear-gradient(to right bottom, #121761, #1d97bd);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  min-height: 12vh;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.main-footer a {
+  text-decoration: none;
+  list-style: none;
+}
+
+.footer-legal-links {
+  left: 23%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 50%;
+  margin: 0;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer-legal-links li {
+  color: white;
+}
+
+.main-bottom-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  margin: 0;
+  left: 25%;
+  position: relative;
+  color: white;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.footer-social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-social-icons li {
+  margin: 0 0.9rem;
+}
+
+.social-icon a {
+  color: white;
+}
+/*# sourceMappingURL=post_login.css.map */

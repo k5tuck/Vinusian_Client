@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+// #root {
+//   min-height: 100vh;
+//   background: linear-gradient(to right bottom, rgb(18, 23, 97), #1d97bd);
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+.main-body {
+  min-height: 78vh;
+  min-width: 100vw;
+  background: white;
+}
+
+@import "header";
+@import "footer";

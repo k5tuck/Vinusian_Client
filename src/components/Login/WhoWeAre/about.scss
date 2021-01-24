@@ -1,0 +1,11 @@
+.aboutPosts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 60vw;
+  min-height: 78vh;
+  p {
+    color: white;
+  }
+}
