@@ -1,4 +1,5 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function LoginFooter() {
   return (
@@ -21,18 +22,17 @@ function LoginFooter() {
         <ul className="footer-social-icons">
           <li className="social-icon">
             <a href="#">
-              <img src="" alt="LinkedIn" />
+              <FontAwesomeIcon icon={["fab", "linkedin"]} size="lg" />
             </a>
           </li>
           <li className="social-icon">
             <a href="#">
-              <img src="" alt="Twitter" />
+              <FontAwesomeIcon icon={["fab", "twitter"]} size="lg" />
             </a>
           </li>
           <li className="social-icon">
             <a href="#">
-              {/* <img src="" alt="" /> */}
-              <i class="fab fa-github"></i>
+              <FontAwesomeIcon icon={["fab", "github"]} size="lg" />
             </a>
           </li>
         </ul>

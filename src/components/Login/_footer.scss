@@ -4,19 +4,18 @@
   width: 100%;
   justify-content: space-around;
   align-content: center;
-
-  div {
-    display: flex;
-  }
+  // position: absolute;
   a {
     text-decoration: none;
     list-style: none;
   }
 }
 .footer-legal-links {
+  left: 25%;
   display: flex;
+  position: relative;
   width: 50%;
-  margin: 0 0 0 24%;
+  margin: 0;
   justify-content: space-around;
   li {
     color: white;
@@ -25,15 +24,17 @@
 .lbottom-footer {
   display: flex;
   width: 50%;
-  margin: 0 0 0 26%;
+  margin: 0;
+  left: 25%;
+  position: relative;
+
   color: white;
   justify-content: space-around;
 }
 .footer-social-icons {
   display: flex;
   li {
-    width: 100%;
-    justify-content: space-around;
+    margin: 0 0.9rem;
   }
 }
 .social-icon {

@@ -6,6 +6,10 @@ import Login from "./components/Login/Login";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import LayoutBody from "./components/Post_Login/LayoutBody";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+
+library.add(fab);
 
 ReactDOM.render(
   <React.StrictMode>
